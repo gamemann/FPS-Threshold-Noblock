@@ -40,7 +40,7 @@ public Action Timer_Block(Handle timer)
     ForceCollision(true);
 }
 
-public void OnDetect(int avgfps)
+public void FPSTH_OnDetect(int avgfps)
 {
     if  (g_insequence)
     {
