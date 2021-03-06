@@ -1,8 +1,6 @@
 #include <sourcemod>
 #include <fps-threshold>
 
-#define MAXSTORE 256
-
 public Plugin myinfo =
 {
     name = "FPS Threshold - Forces Noblock",
