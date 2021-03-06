@@ -29,6 +29,8 @@ public void OnPluginStart()
     {
         SetFailState("Could not find offset for => CBaseEntity::m_CollisionGroup. Plugin failed.");
     }
+
+    AutoExecConfig(true, "plugin.fpsth.noblock");
 }
 
 public Action Timer_Block(Handle timer)
