@@ -2,7 +2,7 @@
 ## Description
 Forces noblock for *x* seconds on all players when average server FPS goes under threshold according to the [FPS Threshold](https://github.com/gamemann/FPS-Threshold) plugin.
 
-## Requires
+## Requirements
 * [FPS Threshold.](https://github.com/gamemann/FPS-Threshold)
 
 ## ConVars
