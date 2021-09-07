@@ -40,7 +40,7 @@ public Action Timer_Block(Handle timer)
     ForceCollision(true);
 }
 
-public void FPSTH_OnDetect(int avgfps)
+public void FPSTH_OnDetect(float avgfps, int fps)
 {
     if  (g_insequence)
     {
@@ -54,7 +54,7 @@ public void FPSTH_OnDetect(int avgfps)
 
     if (g_cvDebug.BoolValue)
     {
-        PrintToServer("[NOL] Server FPS threshold exceeded. Average server FPS => %d", avgfps);
+        PrintToServer("[NOL] Server FPS threshold exceeded. Average server FPS => %.2f", avgfps);
     }
 
     g_insequence = true;
